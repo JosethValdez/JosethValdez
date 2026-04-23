@@ -1,6 +1,6 @@
 <h1 align="center"><b>Hi, I'm Joseth Valdez</b> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 
-<img align="right" width="300px" alt="Hacking" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnZneDEzdmRxYmkwNDU2ejQ2bzViZmMzdWxoODRpcXU5bGtmaW05dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nfGJe91LuUfSFZwVlu/giphy.gif" />
+<img align="right" width="200px" alt="Coding" src="https://camo.githubusercontent.com/2fbf5911f004b027e1848f31a152ad53d2ed06e1fbfc4d10b6700dc5cc935924/68747470733a2f2f632e74656e6f722e636f6d2f474e37334d4b4261775a5941414141692f627573792d637574652e676966" />
 
 <img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="30px">&nbsp;***About me***
 
