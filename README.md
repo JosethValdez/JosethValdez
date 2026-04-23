@@ -1,6 +1,6 @@
 <h1 align="center"><b>Hi, I'm Joseth Valdez</b> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 
-<img align="right" width="300px" alt="Hacking" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
+<img align="right" width="300px" alt="Hacking" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnZneDEzdmRxYmkwNDU2ejQ2bzViZmMzdWxoODRpcXU5bGtmaW05dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nfGJe91LuUfSFZwVlu/giphy.gif" />
 
 <img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="30px">&nbsp;***About me***
 
@@ -65,7 +65,6 @@ A Windows desktop app that catches malware by evaluating behavioral context — 
 
 <h4>Frameworks & Libraries</h4>
 <span>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
   <img src="https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white">
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white">
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
@@ -81,42 +80,6 @@ A Windows desktop app that catches malware by evaluating behavioral context — 
 </span>
 
 ---
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true" height="165">
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true">
-</div>
-
----
-
-## 🏆 Experience & Recognition
-
-| Role | Organization | Period |
-|------|-------------|--------|
-| 🔬 Undergraduate Researcher | CyberRig — UTEP | Aug 2025 – Present |
-| 🖥️ CS IT Support Specialist | CS Dept — UTEP | Jan–Feb 2025 |
-| 🎯 Hackathon Organizer (30+ participants) | CyberRig — UTEP | 2025 |
-| 🎓 Honors Program Member | UTEP | 2023 – Present |
-| 📜 Google Cybersecurity Certificate | Google / Coursera | 2024 |
-
----
-
-## 📬 Connect With Me
-
-<a href="https://linkedin.com/in/YOUR_LINKEDIN_HANDLE">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
-</a>
-<a href="mailto:jsvaldez2@miners.utep.edu">
-  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
-</a>
-
-<br><br>
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&color=blue&style=flat-square" alt="Profile views">
