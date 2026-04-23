@@ -4,7 +4,7 @@
 
 <img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="30px">&nbsp;***About me***
 
-I'm a Computer Science student at **UTEP** (GPA: 3.56 · Honors Program) with a focus on **cybersecurity research** and **AI-powered tooling**. By day I'm an undergraduate researcher building adaptive honeypots — by night I'm shipping desktop apps that use LLMs to catch malware that antivirus misses.
+I'm a Computer Science student at **UTEP** (GPA: 3.56 · Honors Program) with a focus on **cybersecurity research** and **software development**. By day I'm an undergraduate researcher building adaptive honeypots, and by night I'm diving into security challenges, tinkering with side projects, and exploring whatever corner of tech catches my attention.
 
 - 🔭 Currently researching **adaptive network defense & honeynet design** at CyberRig — UTEP
 - 🛡️ Certified: **Google Cybersecurity Professional Certificate**
@@ -22,14 +22,14 @@ I'm a Computer Science student at **UTEP** (GPA: 3.56 · Honors Program) with a 
 ## ⚔️ Featured Projects
 
 ### 🍯 Dynamic Honeypot — AI-Driven Adaptive Network Defense
-> `Bash` · `Linux` · `Python` · `Nmap` · `CORE Network Emulator`
+> `Bash` · `Linux` · `Python` · `Nmap`
 
 An adaptive honeypot system that mimics realistic infrastructure to lure, track, and study real attacker behavior.
 
 - 🐍 Built **3+ Python scripts** to automate network log parsing and extract behavioral patterns from experimental data
-- 🌐 Simulated **10+ network environments** using CORE Network Emulator to evaluate attacker decision-making
-- 🎯 Tuned service fingerprints and exposed ports to reduce early abandonment and maximize threat intelligence yield
-- 🔄 Iterated across **8+ design and testing cycles** improving decoy realism with each round
+- 🌐 Monitored attacker behavior across repeated test scenarios by tracking connection attempts, lateral movement, and service interaction patterns
+- 🎯 Tuned exposed services and system fingerprints to match realistic infrastructure profiles, reducing early attacker abandonment
+- 🔄 Led development across **8+ design and testing cycles** improving decoy realism with each round
 
 ---
 
@@ -41,7 +41,6 @@ A Windows desktop app that catches malware by evaluating behavioral context — 
 - 🧠 Scans folders using **LLM-generated behavioral analysis**, catching threats traditional antivirus misses
 - 🔌 Abstracted inference layer supports **local models (Ollama) AND cloud APIs** — switch environments with zero code changes
 - ⚡ Surfaces plain-English explanations of flagged files alongside **one-click quarantine, block, or delete** actions
-- 🏗️ Full-stack architecture: React + Vite frontend, Electron shell, Python backend inference
 
 ---
 
