@@ -1,74 +1,133 @@
-# 👋 Hey, I'm Joseth Valdez
+<div align="center">
 
-```bash
-$ whoami
-→ CS Student | Aspiring Penetration Tester | Ethical Hacker
+```
+╔═══════════════════════════════════════════════════════════╗
+║   JOSETH VALDEZ  //  Security Engineer & Builder          ║
+║   CS @ UTEP  ·  Cybersecurity Researcher  ·  El Paso, TX  ║
+╚═══════════════════════════════════════════════════════════╝
 ```
 
-> 🎯 Focused on offensive security, web app pentesting, and CTF challenges.  
-> 🔍 I break things legally — then write about how I did it.  
-> 📚 Currently grinding toward my eJPT and building my home lab.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_HANDLE)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jsvaldez2@miners.utep.edu)
+[![Google Cybersecurity](https://img.shields.io/badge/Google_Cybersecurity-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://www.coursera.org/professional-certificates/google-cybersecurity)
+
+</div>
 
 ---
 
-## 🛠️ Tools & Skills
+### `whoami`
 
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=portswigger&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-004E8C?style=for-the-badge&logo=nmap&logoColor=white)
-![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+```python
+joseth = {
+    "role"       : "Undergraduate Researcher @ CyberRig · UTEP",
+    "degree"     : "B.S. Computer Science — Expected May 2027",
+    "gpa"        : "3.56 / 4.00  |  Honors Program Member",
+    "focus"      : ["Network Security", "Adaptive Defense", "AI-Powered Tooling"],
+    "currently"  : "Building honeypots that think and malware scanners that explain",
+}
+```
 
----
-
-## 📌 Featured Repos
-
-| Repo | Description |
-|------|-------------|
-| 📝 [ctf-writeups](https://github.com/your-username/ctf-writeups) | Documented solutions for HTB, TryHackMe & PicoCTF. Full methodology, not just flags. |
-| 🔍 [recon-toolkit](https://github.com/your-username/recon-toolkit) | Custom Python scripts: subdomain enumerator, port scanner, banner grabber. |
-| 🧪 [vuln-lab-notes](https://github.com/your-username/vuln-lab-notes) | Home lab walkthroughs — Metasploitable2, DVWA, VulnHub machines. |
-| ⚙️ [pentest-checklists](https://github.com/your-username/pentest-checklists) | Personal methodology notes: web app testing, privesc, enumeration. |
+I'm a CS student at UTEP where I spend my time making networks harder to attack and easier to defend. My work sits at the intersection of **cybersecurity research**, **network emulation**, and **AI-assisted tooling** — I care about building things that actually work under adversarial conditions, not just in demos.
 
 ---
 
-## 🏆 Certifications & Progress
+### ⚔️ Featured Projects
 
-| Certification | Status |
-|---------------|--------|
-| 🏅 CompTIA Security+ | ✅ Earned |
-| ⏳ eJPT (eLearnSecurity Jr. Pentester) | 🔄 In Progress |
-| 🎯 OSCP (Offensive Security) | 📅 Goal: 2026 |
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**🍯 Dynamic Honeypot**
+`Bash · Linux · Python · Nmap`
+
+An AI-driven adaptive network defense system that mimics realistic infrastructure to trap and study attackers.
+
+- Built **3+ Python scripts** to automate log parsing and surface behavioral patterns
+- Tracked lateral movement, connection attempts, and service interaction across test scenarios
+- Tuned service fingerprints to reduce early attacker abandonment and maximize threat intelligence yield
+
+</td>
+<td width="50%" valign="top">
+
+**🛡️ Sentinel Desktop App**
+`React · Electron · Vite · Ollama`
+
+An AI-powered malware analysis tool for Windows that catches what traditional antivirus misses.
+
+- Scans folders by evaluating **behavioral context + file patterns** — not just signatures
+- Abstracted inference layer supports both **local LLMs (Ollama)** and **cloud APIs** with zero code changes
+- Surfaces LLM-generated file explanations with one-click quarantine, block, or delete actions
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 📊 GitHub Stats
+### 🔬 Research Experience
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=github_dark&hide_border=true&count_private=true" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&theme=github_dark&hide_border=true" height="150"/>
-</p>
+**Cyber Rapid Innovation Group (CyberRig) — UTEP** *(Aug 2025 – Present)*
 
----
+Working on adaptive cyber defense research with a focus on honeynets and attacker behavior modeling.
 
-## 🧩 CTF Platforms
-
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/your-username)
-[![HackTheBox](https://img.shields.io/badge/HackTheBox-111927?style=for-the-badge&logo=hackthebox&logoColor=9FEF00)](https://app.hackthebox.com/profile/your-id)
+- Simulated **10+ network environments** using CORE Network Emulator
+- Led development cycles across **8+ design and testing iterations**
+- Organized a cybersecurity hackathon with **30+ student participants** — handled challenge design, logistics, and cross-team coordination
 
 ---
 
-## 📬 Connect With Me
+### 🛠️ Tech Stack
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+
+**Security Tools**
+
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap-214478?style=flat-square&logo=nmap&logoColor=white)
+
+**Dev Tools**
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Electron](https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 
 ---
 
-<p align="center">
-  <i>"The quieter you become, the more you are able to hear." — Kali Linux</i>
-</p>
+### 📊 GitHub Stats
+
+<div align="center">
+
+![Joseth's GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true)
+
+</div>
+
+---
+
+### 📌 What I'm Working On
+
+- 🔭 Advancing the Dynamic Honeypot's adaptive fingerprinting logic
+- 🧠 Exploring LLM-assisted threat classification in network telemetry
+- 📚 Coursework: Data Structures & Algorithms · Operating Systems · Computer Architecture
+
+---
+
+<div align="center">
+
+*"Security is not a product, but a process." — Bruce Schneier*
+
+**Open to internship opportunities in cybersecurity and security engineering · Summer/Fall 2026**
+
+![Visitor Count](https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&color=blue&style=flat-square)
+
+</div>
