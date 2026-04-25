@@ -12,7 +12,7 @@ I'm a Computer Science student at **UTEP** (GPA: 3.56 · Honors Program) with a 
 - 👯 Open to collaborating on **open-source security tools or AI-assisted developer tooling**
 - 🎯 Actively seeking **Summer/Fall 2026 internships** in cybersecurity or security engineering
 - ✔ Ask me about **honeypots, Electron apps, Python scripting, or network forensics**
-- 🎮 Outside tech: FPS games, music production, and breaking things in VMs
+- 🎮 Outside tech: FPS games, reading comics, and breaking things in VMs
 - 📫 Reach me at: <a href="mailto:jsvaldez2@miners.utep.edu">jsvaldez2@miners.utep.edu</a>
 
 <br>
