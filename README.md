@@ -78,11 +78,3 @@ A Windows desktop app that catches malware by evaluating behavioral context — 
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
 </span>
-
----
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&color=blue&style=flat-square" alt="Profile views">
-  <br><br>
-  <i>"The quieter you become, the more you are able to hear." — Kali Linux</i>
-</div>
