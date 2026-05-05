@@ -1,0 +1,39 @@
+# docker-compose.yml — Phase 2: Cowrie SSH honeypot wearing the same identity
+# as the web tier. Runs the official cowrie/cowrie image with our generated
+# config + honeyfs files bind-mounted in.
+#
+# Bring up:   docker compose up -d
+# Tear down:  docker compose down
+# Logs:       docker compose logs -f cowrie
+# JSON log:   tail -f cowrie-logs/cowrie.json    (host-side, after first connection)
+#
+# After it's running, test from another shell:
+#   ssh -p 2222 webmaster@localhost     (password: web1234)
+#
+# You should see hostname srvweb01 and /etc/redhat-release agree with identity.json.
+
+services:
+  cowrie:
+    image: cowrie/cowrie:latest
+    container_name: srvweb01-ssh
+    restart: unless-stopped
+    ports:
+      - "2222:2222"   # SSH
+      - "2223:2223"   # Telnet (Cowrie default)
+    volumes:
+      # Auth + config overrides (read-only — Cowrie only reads these)
+      - ./config/cowrie/userdb.txt:/cowrie/cowrie-git/etc/userdb.txt:ro
+      - ./config/cowrie/cowrie.cfg:/cowrie/cowrie-git/etc/cowrie.cfg:ro
+
+      # Identity overlay on top of Cowrie's default honeyfs (read-only).
+      # Mounting individual files keeps the rest of honeyfs intact.
+      - ./config/cowrie/honeyfs/etc/hostname:/cowrie/cowrie-git/honeyfs/etc/hostname:ro
+      - ./config/cowrie/honeyfs/etc/redhat-release:/cowrie/cowrie-git/honeyfs/etc/redhat-release:ro
+      - ./config/cowrie/honeyfs/etc/passwd:/cowrie/cowrie-git/honeyfs/etc/passwd:ro
+      - ./config/cowrie/honeyfs/etc/motd:/cowrie/cowrie-git/honeyfs/etc/motd:ro
+      - ./config/cowrie/honeyfs/etc/issue:/cowrie/cowrie-git/honeyfs/etc/issue:ro
+      - ./config/cowrie/honeyfs/proc/version:/cowrie/cowrie-git/honeyfs/proc/version:ro
+
+      # Logs — read-write so Cowrie can append cowrie.json and cowrie.log here.
+      # Phase 3's observer.py will tail cowrie.json out of this directory.
+      - ./cowrie-logs:/cowrie/cowrie-git/var/log/cowrie
